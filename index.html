@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="">
+        <title>TEST ONEPAGE #1</title>
+        <link rel="stylesheet" type="text/css" href="examples/examples.css" />
+        <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>   
+        <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+        <script type="text/javascript" src="jquery.fullPage.js"></script>
+        <script src="vendors/jquery.easings.min.js"></script>
+        <script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+                anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage']
+			});
+		});
+	</script>
+    </head>
+
+    <body>
+        <ul id="menu">
+            <li data-menuanchor="firstPage" class="active"><a href=#firstPage>First Section</a></li>
+            <li data-menuanchor="secondPage"><a href="#secondPage">Second section</a></li>
+            <li><a></a></li>
+            <li><a></a></li>
+            <li><a></a></li>
+        </ul>
+        
+        <div id="fullpage">
+	       <div class="section active" id="section0"><h1>Hey</h1></div>
+	       <div class="section" id="section1">Some section</div>
+	       <div class="section" id="section2">Some section</div>
+	       <div class="section" id="section3">Some section</div>
+        </div>
+     
+    </body>
+</html>
