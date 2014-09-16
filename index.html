@@ -16,30 +16,7 @@
         <script type="text/javascript" src="jquery.fullPage.js"></script>
         <script src="vendors/jquery.easings.min.js"></script>
         <script type="text/javascript" src="jquery.scroll.js"></script>
-        <script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-                anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
-                menu: '#menu',
-                
-                afterLoad: function(index, nextIndex){
-                    if(index !='firstPage') {
-                        var div = $(".menu");
-                        $('.logo').removeClass('logo').addClass('darklogo')
-                        div.removeClass('menu').addClass("darkmenu");
-                    } 
-                    
-                    if(index =='firstPage') {
-                        var div = $(".darkmenu");
-                        $('.darklogo').removeClass('darklogo').addClass('logo')
-                        div.removeClass('darkmenu').addClass("menu");
-                    } 
-                    console.log(index)
-                }
-                
-			});
-		});
-	</script>
+        <script type="text/javascript" src="script.js"></script>
     </head>
 
     <body>

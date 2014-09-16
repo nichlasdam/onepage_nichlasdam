@@ -10,7 +10,7 @@
 .darkmenu {
     background-color: white;
     z-index: 21322;
-    height: 100px;
+    height: 60px;
     width: 100%;
     position: fixed;
 }   
@@ -28,9 +28,9 @@ c
 header .darklogo {
     position:fixed;
 	top:15px;
-	height: 83px;
-    width: 300px;
-	z-index: 70234234234;
+    height: 7%;
+    width: 15%;
+    z-index: 70234234234;
 	padding: 0;
 	margin:0; 
     background-image: url(darklogo.png);
