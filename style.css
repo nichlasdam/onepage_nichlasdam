@@ -1,0 +1,52 @@
+#menu {
+	position:fixed;
+	top:0;
+    right: 20px;
+	height: 40px;
+	z-index: 70;
+	padding: 0;
+	margin:0; 
+}
+.darkmenu {
+    background-color: white;
+    z-index: 21322;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}   
+header .logo {
+    position:fixed;
+	top:15px;
+	height: 83px;
+    width: 300px;
+	z-index: 70234234234;
+	padding: 0;
+	margin:0; 
+    background-image: url('http://damgruppen.dk/wp-content/uploads/2014/05/logo-damgruppen1.png');
+c
+}
+header .darklogo {
+    position:fixed;
+	top:15px;
+	height: 83px;
+    width: 300px;
+	z-index: 70234234234;
+	padding: 0;
+	margin:0; 
+    background-image: url(darklogo.png);
+    background-size: cover;
+}
+#slide1 {
+    background: url('bg1.jpg');
+}
+#section0 .slide h2 {
+    color: white;
+    font-size: 50px;
+}
+#section0 .slide p {
+    color: white;   
+}
+.slide .slide_text {
+    width: 550px;
+    margin: 0 auto;
+}
